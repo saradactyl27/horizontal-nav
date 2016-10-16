@@ -1,6 +1,6 @@
 html {
   background-color: #dbd6cf;
-  font-family: "Bevan";
+  font-family: "Bevan, sans-serif";
   line-height: 1.5;
   box-sizing: border-box;
 }
@@ -11,30 +11,32 @@ html {
 
 body {
   background-color: #79756f;
-  margin: .3rem;
-  padding: .75em;
+  padding: 0.75em;
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
+
+  margin: .3em auto;
 }
 
 h1 {
   color: #fff;
   font-family: "Bevan";
-  padding: .6em;
+  padding: .3em;
   text-align: center;
+  margin-top: 0.1em;
 }
 
-.navigation {
-  font-family: "sans-serif";
+nav ul {
+  font-family: sans-serif;
   list-style-type: none;
   text-align: center;
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 a,
 a:link {
   background-color: #713837;
-  padding: 0.6em;
+  padding: 0.5em;
   text-decoration: none;
   color: #fff;
   border-radius: 5px;
@@ -44,7 +46,7 @@ a:hover {
   background-color: #f33;
 }
 
-div {
+nav li {
   display: inline-block;
   text-align: center;
   border-radius: 10px;
